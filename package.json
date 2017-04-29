@@ -1,0 +1,41 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "Gulp start.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schepotin/Gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "webpack"
+  ],
+  "author": "Schepotin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Schepotin/Gulp/issues"
+  },
+  "homepage": "https://github.com/Schepotin/Gulp#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-uglify": "^2.1.2",
+    "node-sass": "^4.1.1",
+    "uglify-js": "^2.8.22",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^1.14.0",
+    "webpack-stream": "^3.2.0"
+  }
+}
