@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     sourcemaps = require('gulp-sourcemaps'),
     autoprefixer = require('gulp-autoprefixer'),
-    UglifyJSPlugin = require('uglifyjs-webpack-plugin'),
+    UglifyEsPlugin = require('uglify-es-webpack-plugin'),
     browserSync = require('browser-sync').create();
 
 gulp.task('sass', function () {
@@ -68,7 +68,7 @@ gulp.task('webpack-production', function () {
                 ]
             },
             plugins: [
-                new UglifyJSPlugin({
+                new UglifyEsPlugin({
                     compress: {
                         warnings: false
                     }
