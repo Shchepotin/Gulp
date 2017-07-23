@@ -39,7 +39,8 @@ gulp.task('webpack', function () {
                         exclude: /(node_modules)/,
                         loader: 'babel-loader',
                         query: {
-                            presets: ['es2017']
+                            presets: ['es2015', 'es2016', 'es2017'],
+                            plugins: ["transform-runtime"]
                         }
                     }
                 ]
@@ -62,7 +63,8 @@ gulp.task('webpack-production', function () {
                         exclude: /(node_modules)/,
                         loader: 'babel-loader',
                         query: {
-                            presets: ['es2017']
+                            presets: ['es2015', 'es2016', 'es2017'],
+                            plugins: ["transform-runtime"]
                         }
                     }
                 ]
